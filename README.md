@@ -28,8 +28,7 @@ A simple yet functional **Flutter Todo application** integrated with **Supabase*
    flutter run
    ```
 # Important
-
-5. Dont forget to put your own link and api from supabase and use the SupabaseHelper method instead of SupabaseHelperprivate.
+ Dont forget to put your own link and api from supabase and use the SupabaseHelper method instead of SupabaseHelperprivate.
 
 ## 📷 Screenshots:
 SplashPage :
