@@ -5,7 +5,7 @@ A simple yet functional **Flutter Todo application** integrated with **Supabase*
 ## 📌 Features
 - **User Authentication** (Sign Up / Login)
 - **Exception Handling** for failed logins or duplicate sign-ups
-- **Custom Splash Screen** to check user login state
+- **Splash Screen** loading the app
 - **Todo Management** with Supabase Database
 - **Responsive UI** with Material Design
 
