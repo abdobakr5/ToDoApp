@@ -14,18 +14,29 @@ class WelcomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const FlutterLogo(size: 80),
+              Image.asset("assets/images/Welcome.png",
+                width: 200,
+              ),
               const SizedBox(height: 30),
-              const Text("Welcome!", style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-              const SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const Text("Login"))),
-                child: const Text("Login"),
+              const Text(
+                "Welcome to Todo App",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 27),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: ElevatedButton(
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const LoginPage())),
+                  child: const Text("Login" ,style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                ),
               ),
               const SizedBox(height: 10),
-              ElevatedButton(
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const Text("SignUp"))),
-                child: const Text("Sign Up"),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: ElevatedButton(
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SignUpPage())),
+                  child: const Text("Sign Up",style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                ),
               ),
             ],
           ),
