@@ -1,11 +1,12 @@
 import 'package:todoapp/helpers/supabase_helper.dart';
+import 'package:todoapp/helpers/supabase_helper_private.dart';
 import 'package:flutter/material.dart';
 import 'package:todoapp/Pages/splash_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await SupabaseHelper.init();
+  await SupabaseHelperprivate.init();
   runApp(const MyApp());
 }
 
