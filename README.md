@@ -1,16 +1,48 @@
-# todoapp
+# Flutter Todo App with Supabase Authentication
 
-ToDoApp.
+A simple yet functional **Flutter Todo application** integrated with **Supabase** for authentication and real-time data storage.
 
-## Getting Started
+## 📌 Features
+- **User Authentication** (Sign Up / Login)
+- **Exception Handling** for failed logins or duplicate sign-ups
+- **Custom Splash Screen** to check user login state
+- **Todo Management** with Supabase Database
+- **Responsive UI** with Material Design
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies Used
+- [Flutter](https://flutter.dev/)  
+- [Supabase](https://supabase.com/) (Authentication & Database)  
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/flutter-todo-supabase.git
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Set up a **Supabase** project and update the `supabaseUrl` and `supabaseAnonKey` in your Flutter app.
+4. Run the app:
+   ```bash
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📷 Screenshots:
+SplashPage :
+<img width="368" height="787" alt="Splash" src="https://github.com/user-attachments/assets/6b14f1f6-1e53-4ad2-a7c9-427154a7c372" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+WelcomePage :
+<img width="373" height="786" alt="Welcome" src="https://github.com/user-attachments/assets/698daf61-96f4-4386-be09-0528d2c48fa4" />
+
+SignUp :
+<img width="363" height="787" alt="SignUp" src="https://github.com/user-attachments/assets/1124149d-ae9b-467d-8d10-d84e3a4d5b6c" />
+
+SignIn :
+<img width="393" height="782" alt="SignIn" src="https://github.com/user-attachments/assets/eee19d0b-49a6-443d-99a6-3dd15342cdb0" />
+
+ToDoList :
+<img width="353" height="737" alt="ToDoList" src="https://github.com/user-attachments/assets/fa2a5081-3ac9-4f14-aa8b-af336534355f" />
+
+
+
