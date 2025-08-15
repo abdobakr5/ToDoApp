@@ -16,7 +16,7 @@ A simple yet functional **Flutter Todo application** integrated with **Supabase*
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/flutter-todo-supabase.git
+   git clone https://github.com/abdobakr5/ToDoApp.git
    ```
 2. Install dependencies:
    ```bash
